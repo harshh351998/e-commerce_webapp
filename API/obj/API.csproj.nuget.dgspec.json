@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "p:\\e_commerce_webapp\\skinet\\API\\API.csproj": {}
+    "P:\\e_commerce_webapp\\skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "p:\\e_commerce_webapp\\skinet\\API\\API.csproj": {
+    "P:\\e_commerce_webapp\\skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "p:\\e_commerce_webapp\\skinet\\API\\API.csproj",
+        "projectUniqueName": "P:\\e_commerce_webapp\\skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "p:\\e_commerce_webapp\\skinet\\API\\API.csproj",
+        "projectPath": "P:\\e_commerce_webapp\\skinet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Harsh Patel\\.nuget\\packages\\",
-        "outputPath": "p:\\e_commerce_webapp\\skinet\\API\\obj\\",
+        "outputPath": "P:\\e_commerce_webapp\\skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,6 +25,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +44,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.4, )"
