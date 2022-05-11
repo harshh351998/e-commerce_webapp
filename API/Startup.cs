@@ -1,8 +1,5 @@
-using Microsoft.OpenApi.Models;
-using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-using API.Entities;
-using API.Data;
+using Infrastructure.Data;
 
 namespace API
 {
