@@ -56,3 +56,5 @@ P:\e_commerce_webapp\skinet\API\bin\Debug\net6.0\Core.dll
 P:\e_commerce_webapp\skinet\API\bin\Debug\net6.0\Infrastructure.dll
 P:\e_commerce_webapp\skinet\API\bin\Debug\net6.0\Infrastructure.pdb
 P:\e_commerce_webapp\skinet\API\bin\Debug\net6.0\Core.pdb
+P:\e_commerce_webapp\skinet\API\bin\Debug\net6.0\AutoMapper.dll
+P:\e_commerce_webapp\skinet\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
