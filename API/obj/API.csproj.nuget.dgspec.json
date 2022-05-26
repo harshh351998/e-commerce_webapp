@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "P:\\e-commerce_web-application\\skinet\\API\\API.csproj": {}
+    "D:\\ecommerce_webapp\\skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "P:\\e-commerce_web-application\\skinet\\API\\API.csproj": {
+    "D:\\ecommerce_webapp\\skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\e-commerce_web-application\\skinet\\API\\API.csproj",
+        "projectUniqueName": "D:\\ecommerce_webapp\\skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "P:\\e-commerce_web-application\\skinet\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Harsh Patel\\.nuget\\packages\\",
-        "outputPath": "P:\\e-commerce_web-application\\skinet\\API\\obj\\",
+        "projectPath": "D:\\ecommerce_webapp\\skinet\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Harsh104130.MASTEK\\.nuget\\packages\\",
+        "outputPath": "D:\\ecommerce_webapp\\skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Harsh Patel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Harsh104130.MASTEK\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "P:\\e-commerce_web-application\\skinet\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "P:\\e-commerce_web-application\\skinet\\Infrastructure\\Infrastructure.csproj"
+              "D:\\ecommerce_webapp\\skinet\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\ecommerce_webapp\\skinet\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -81,32 +75,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "P:\\e-commerce_web-application\\skinet\\Core\\Core.csproj": {
+    "D:\\ecommerce_webapp\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\e-commerce_web-application\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\ecommerce_webapp\\skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "P:\\e-commerce_web-application\\skinet\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Harsh Patel\\.nuget\\packages\\",
-        "outputPath": "P:\\e-commerce_web-application\\skinet\\Core\\obj\\",
+        "projectPath": "D:\\ecommerce_webapp\\skinet\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Harsh104130.MASTEK\\.nuget\\packages\\",
+        "outputPath": "D:\\ecommerce_webapp\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Harsh Patel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Harsh104130.MASTEK\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -139,40 +127,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "P:\\e-commerce_web-application\\skinet\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\ecommerce_webapp\\skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\e-commerce_web-application\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\ecommerce_webapp\\skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "P:\\e-commerce_web-application\\skinet\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Harsh Patel\\.nuget\\packages\\",
-        "outputPath": "P:\\e-commerce_web-application\\skinet\\Infrastructure\\obj\\",
+        "projectPath": "D:\\ecommerce_webapp\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Harsh104130.MASTEK\\.nuget\\packages\\",
+        "outputPath": "D:\\ecommerce_webapp\\skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Harsh Patel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Harsh104130.MASTEK\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "P:\\e-commerce_web-application\\skinet\\Core\\Core.csproj": {
-                "projectPath": "P:\\e-commerce_web-application\\skinet\\Core\\Core.csproj"
+              "D:\\ecommerce_webapp\\skinet\\Core\\Core.csproj": {
+                "projectPath": "D:\\ecommerce_webapp\\skinet\\Core\\Core.csproj"
               }
             }
           }
@@ -207,7 +189,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
