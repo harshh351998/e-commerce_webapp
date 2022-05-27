@@ -1498,11 +1498,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ecommerce_webapp\\skinet\\API\\API.csproj",
+      "projectUniqueName": "D:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\ecommerce_webapp\\skinet\\API\\API.csproj",
+      "projectPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Harsh104130.MASTEK\\.nuget\\packages\\",
-      "outputPath": "D:\\ecommerce_webapp\\skinet\\API\\obj\\",
+      "outputPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Harsh104130.MASTEK\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1517,8 +1517,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ecommerce_webapp\\skinet\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\ecommerce_webapp\\skinet\\Infrastructure\\Infrastructure.csproj"
+            "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
