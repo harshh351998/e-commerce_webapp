@@ -3,12 +3,13 @@ This is shopping website, where customer can buy products according to their cho
 
 # Project Architecture
 ## Client
-Angular
+1) UI
+2) Services
 
 ## Server
-1) Core
-2) Infrastructure
-3) API
+1) API
+2) Core
+3) Infrastructure
 
 # Technology Stack
 1) ASP.NET
