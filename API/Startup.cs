@@ -7,6 +7,7 @@ using API.Middleware;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using API.Errors;
+using Microsoft.OpenApi.Models;
 
 namespace API
 {
@@ -42,6 +43,10 @@ namespace API
                     return new BadRequestObjectResult(errorResponse);
                 };
             });
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1"});
+            });
             
         }
 
@@ -49,13 +54,11 @@ namespace API
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseMiddleware<ExceptionMiddleware>();
-            if (env.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
-                
-            }
+            app.UseSwagger();
             
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
+            
+    
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
 
             app.UseHttpsRedirection();
