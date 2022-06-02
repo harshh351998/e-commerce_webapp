@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container mt-3">
   <div class="row">
 
     <!-- Sidebar template -->
@@ -18,8 +18,8 @@
             *ngFor="let brand of brands"
             [class.active]="brandid === brandIdSelected"
             [value]="brand.id"
-            (click)="onBrandSelected(brand.id)"
-        >
+            (click)="onBrandSelection(brand.id)">
+        
           {{brand.name}}
         </li>
       </ul>
@@ -27,11 +27,11 @@
        <!--Product Types -->
       <h5 class="text-warning ml-3">Types</h5>
       <ul class="list-group my-3">
-        <li class="list-group-item " 
+        <li class="list-group-item" 
           *ngFor="let type of types"
           [class.active]="typeid === typeIdSelected"
           [value]="type.id"
-          (click)="onTypeSelected(type.id)"   
+          (click)="onTypeSelection(type.id)"   
         >
           {{type.name}}
         </li>

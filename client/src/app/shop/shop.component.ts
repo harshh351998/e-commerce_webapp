@@ -65,7 +65,7 @@ export class ShopComponent implements OnInit {
   }
 
   //Method for product type selection
-  ontypeSelection(typeId: number){
+  onTypeSelection(typeId: number){
     this.typeIdSelected = typeId;
     this.getProducts();
   }
