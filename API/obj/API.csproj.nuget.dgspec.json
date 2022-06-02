@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj": {}
+    "d:\\e-commerce_webapplication\\e-commerce_webapp\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj": {
+    "d:\\e-commerce_webapplication\\e-commerce_webapp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj",
+        "projectUniqueName": "d:\\e-commerce_webapplication\\e-commerce_webapp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj",
+        "projectPath": "d:\\e-commerce_webapplication\\e-commerce_webapp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Harsh104130.MASTEK\\.nuget\\packages\\",
-        "outputPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\API\\obj\\",
+        "outputPath": "d:\\e-commerce_webapplication\\e-commerce_webapp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Harsh104130.MASTEK\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj"
+              "d:\\e-commerce_webapplication\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "d:\\e-commerce_webapplication\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "D:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj": {
+    "d:\\e-commerce_webapplication\\e-commerce_webapp\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj",
+        "projectUniqueName": "d:\\e-commerce_webapplication\\e-commerce_webapp\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj",
+        "projectPath": "d:\\e-commerce_webapplication\\e-commerce_webapp\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Harsh104130.MASTEK\\.nuget\\packages\\",
-        "outputPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\Core\\obj\\",
+        "outputPath": "d:\\e-commerce_webapplication\\e-commerce_webapp\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Harsh104130.MASTEK\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -131,14 +131,14 @@
         }
       }
     },
-    "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj": {
+    "d:\\e-commerce_webapplication\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "d:\\e-commerce_webapplication\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "d:\\e-commerce_webapplication\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Harsh104130.MASTEK\\.nuget\\packages\\",
-        "outputPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\obj\\",
+        "outputPath": "d:\\e-commerce_webapplication\\e-commerce_webapp\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Harsh104130.MASTEK\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -153,8 +153,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj": {
-                "projectPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj"
+              "d:\\e-commerce_webapplication\\e-commerce_webapp\\Core\\Core.csproj": {
+                "projectPath": "d:\\e-commerce_webapplication\\e-commerce_webapp\\Core\\Core.csproj"
               }
             }
           }
