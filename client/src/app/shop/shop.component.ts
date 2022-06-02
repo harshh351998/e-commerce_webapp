@@ -13,6 +13,8 @@ export class ShopComponent implements OnInit {
   products: IProduct[];
   brands: IBrand[];
   types: IType[];
+  brandIdSelected: number;
+  typeIdSelected: number;
 
   // Injecting shop service
   constructor(private shopService: ShopService) { }
@@ -25,7 +27,7 @@ export class ShopComponent implements OnInit {
 
   // Method for getting products
   getProducts(){
-    this.shopService.getProducts().subscribe(response => {
+    this.shopService.getProducts(this.brandIdSelected, this.typeIdSelected).subscribe(response => {
       this.products = response.data;
     }, error =>{
       console.log(error);
@@ -36,7 +38,7 @@ export class ShopComponent implements OnInit {
   //Method for getting product brands
   getBrands(){
     this.shopService.getBrands().subscribe(response => {
-      this.brands = response;
+      this.brands = [{id: 0, name: 'All'}, ...response];
     }, error =>{
       console.log(error);
     });
@@ -45,10 +47,28 @@ export class ShopComponent implements OnInit {
   //Method for getting product types
   getTypes(){
     this.shopService.getTypes().subscribe(response => {
-      this.types = response;
+      this.types = [{id: 0, name: 'All'}, ...response];
     }, error =>{
       console.log(error);
     });
   }
+
+  /*  
+  * Functionality name:- Product Filter Functionality
+  * Author: Harsh Mendapara 
+  */
+
+  //Method for product brand selection
+  onBrandSelection(brandId: number){
+    this.brandIdSelected = brandId;
+    this.getProducts();
+  }
+
+  //Method for product type selection
+  ontypeSelection(typeId: number){
+    this.typeIdSelected = typeId;
+    this.getProducts();
+  }
+
 
 }
