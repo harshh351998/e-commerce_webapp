@@ -3,6 +3,7 @@ import { IBrand } from '../shared/models/brand';
 import { IProduct } from '../shared/models/product';
 import { IType } from '../shared/models/ProductType';
 import { ShopService } from './shop.service';
+import { ShopParams } from '../shared/models/shopParams';
 
 @Component({
   selector: 'app-shop',
@@ -13,9 +14,8 @@ export class ShopComponent implements OnInit {
   products: IProduct[];
   brands: IBrand[];
   types: IType[];
-  brandIdSelected = 0;
-  typeIdSelected = 0;
-  sortSelected = 'name';
+  shopParams = new ShopParams();
+  totalCount: number;
   sortOptions = [
     {name: 'Alphabetical', value: 'name'},
     {name: 'Price: Low to High',value:'priceAsc'},
@@ -33,8 +33,11 @@ export class ShopComponent implements OnInit {
 
   // Method for getting products
   getProducts(){
-    this.shopService.getProducts(this.brandIdSelected, this.typeIdSelected, this.sortSelected).subscribe(response => {
+      this.shopService.getProducts(this.shopParams).subscribe(response => {
       this.products = response.data;
+      this.shopParams.pageNumber = response.pageIndex;
+      this.shopParams.pageSize = response.pageSize;
+      this.totalCount = response.count;
     }, error =>{
       console.log(error);
     });
@@ -66,13 +69,13 @@ export class ShopComponent implements OnInit {
 
   //Method for product brand selection
   onBrandSelection(brandId: number){
-    this.brandIdSelected = brandId;
+    this.shopParams.brandId = brandId;
     this.getProducts();
   }
 
   //Method for product type selection
   onTypeSelection(typeId: number){
-    this.typeIdSelected = typeId;
+    this.shopParams.typeId = typeId;
     this.getProducts();
   }
 
@@ -83,7 +86,17 @@ export class ShopComponent implements OnInit {
 
   // Method for product sorting
   onSortSelected(sort: string){
-    this.sortSelected = sort;
+    this.shopParams.sort = sort;
     this.getProducts();
   }
+
+  /*  
+  * Functionality name:- Pagination Functionality
+  * Author: Harsh Mendapara 
+  */
+ //Method for page change event
+ onPageChanged(event: any){
+   this.shopParams.pageNumber = event.page;
+   this.getProducts();
+ }
 }
