@@ -68,13 +68,13 @@ export class ShopComponent implements OnInit {
   */
 
   //Method for product brand selection
-  onBrandSelection(brandId: number){
+  onBrandSelected(brandId: number){
     this.shopParams.brandId = brandId;
     this.getProducts();
   }
 
   //Method for product type selection
-  onTypeSelection(typeId: number){
+  onTypeSelected(typeId: number){
     this.shopParams.typeId = typeId;
     this.getProducts();
   }
@@ -96,7 +96,7 @@ export class ShopComponent implements OnInit {
   */
  //Method for page change event
  onPageChanged(event: any){
-   this.shopParams.pageNumber = event.page;
+   this.shopParams.pageNumber = event;
    this.getProducts();
  }
 }
