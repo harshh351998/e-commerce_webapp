@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoreModule } from './core/core.module';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { ShopModule } from './shop/shop.module';
 
 
 
@@ -24,6 +25,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     BrowserAnimationsModule,
     HttpClientModule,
     CoreModule,
+    ShopModule,
     HomeModule,
     NgxSpinnerModule
   ],
