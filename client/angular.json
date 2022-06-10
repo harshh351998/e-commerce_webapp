@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "7609b869-a461-40d7-9780-038eb73906d1"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -78,8 +81,8 @@
             },
             "development": {
               "browserTarget": "client:build:development",
-              "sslKey":"D:/e-commerce_webapplication/e-commerce_webapp/client/ssl/server.key",
-              "sslCert": "D:/e-commerce_webapplication/e-commerce_webapp/client/ssl/server.crt",
+              "sslKey":"D:/e-commerce_webapp/e-commerce_webapp/client/ssl/server.key",
+              "sslCert": "D:/e-commerce_webapp/e-commerce_webapp/client/ssl/server.crt",
               "ssl":true
             }
           },
