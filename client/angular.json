@@ -81,8 +81,8 @@
             },
             "development": {
               "browserTarget": "client:build:development",
-              "sslKey":"D:/e-commerce_webapplication/e-commerce_webapp/client/ssl/server.key",
-              "sslCert": "D:/e-commerce_webapplication/e-commerce_webapp/client/ssl/server.crt",
+              "sslKey":"D:/e-commerce_webapp/e-commerce_webapp/client/ssl/server.key",
+              "sslCert": "D:/e-commerce_webapp/e-commerce_webapp/client/ssl/server.crt",
               "ssl":true
             }
           },
