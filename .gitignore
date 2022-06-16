@@ -1,3 +1,5 @@
+.dll
+.pdb
 obj
 bin
 appsettings.json
