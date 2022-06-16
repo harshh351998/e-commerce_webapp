@@ -1,18 +1,14 @@
 using API.Extensions;
 using API.Helpers;
 using API.Middleware;
-using AutoMapper;
 using Infrastructure.Data;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
+using Infrastructure.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using StackExchange.Redis;
 
 namespace API
 {
-    public class Startup
+  public class Startup
     {
         private readonly IConfiguration _config;
         public Startup(IConfiguration config)
@@ -28,6 +24,11 @@ namespace API
             services.AddControllers();
             services.AddDbContext<StoreContext>(x =>
                 x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
+            
+            services.AddDbContext<AppIdentityDbContext>(x =>
+            {
+                x.UseSqlite(_config.GetConnectionString("IdentityConnection"));
+            });
 
             services.AddSingleton<IConnectionMultiplexer>(c => {
                 var configuration = ConfigurationOptions.Parse(_config
