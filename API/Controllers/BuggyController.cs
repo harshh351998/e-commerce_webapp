@@ -1,5 +1,6 @@
 using API.Errors;
 using Infrastructure.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -10,6 +11,12 @@ namespace API.Controllers
         public BuggyController(StoreContext context)
         {
             _context = context;
+        }
+        [HttpGet("testauth")]
+        [Authorize]
+        public ActionResult<string> GetSecretText()
+        {
+            return "secret stuff";
         }
 
         //Not Found error
@@ -22,21 +29,16 @@ namespace API.Controllers
                 {
                     return NotFound(new ApiResponse(404));
                 }
-
                 return Ok();
-
         }
 
-        
         //Server error
         [HttpGet("servererror")]
         public ActionResult GetServerError()
         {
-
                 var thing = _context.Products.Find(42);
                 var thingToReurn = thing.ToString();
                 return Ok();
-
         }
 
         
@@ -45,7 +47,6 @@ namespace API.Controllers
         public ActionResult GetBadRequest()
         {
                 return BadRequest(new ApiResponse(400));
-
         }
 
         
@@ -54,7 +55,6 @@ namespace API.Controllers
         public ActionResult GetNotFoundRequest( int id)
         {
                 return Ok();
-
         }
     }
 }
