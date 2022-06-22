@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj": {}
+    "D:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj": {}
   },
   "projects": {
-    "d:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj": {
+    "D:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj",
+        "projectUniqueName": "D:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "d:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj",
+        "projectPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Harsh104130.MASTEK\\.nuget\\packages\\",
-        "outputPath": "d:\\e-commerce_webapp\\e-commerce_webapp\\API\\obj\\",
+        "outputPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Harsh104130.MASTEK\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "d:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj"
+              "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -59,6 +59,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.3.1, )"
             }
           },
           "imports": [
@@ -83,14 +91,14 @@
         }
       }
     },
-    "d:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj": {
+    "D:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "d:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj",
+        "projectPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Harsh104130.MASTEK\\.nuget\\packages\\",
-        "outputPath": "d:\\e-commerce_webapp\\e-commerce_webapp\\Core\\obj\\",
+        "outputPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Harsh104130.MASTEK\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -124,6 +132,10 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.6, )"
             }
           },
           "imports": [
@@ -145,14 +157,14 @@
         }
       }
     },
-    "d:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "d:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Harsh104130.MASTEK\\.nuget\\packages\\",
-        "outputPath": "d:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\obj\\",
+        "outputPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Harsh104130.MASTEK\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -167,8 +179,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj": {
-                "projectPath": "d:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj"
+              "D:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj": {
+                "projectPath": "D:\\e-commerce_webapp\\e-commerce_webapp\\Core\\Core.csproj"
               }
             }
           }
@@ -191,6 +203,14 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.4, )"
@@ -199,9 +219,17 @@
               "target": "Package",
               "version": "[6.19.0, )"
             },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.5.61, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.119.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
