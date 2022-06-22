@@ -59,23 +59,20 @@ namespace API
 
             app.UseRouting();
             app.UseStaticFiles();
-            app.UseStaticFiles(new StaticFileOptions
-            {
-                FileProvider = new PhysicalFileProvider(
-                    Path.Combine(Directory.GetCurrentDirectory(), "Content")
-                ), RequestPath = "/content"
-            });
+            
 
             app.UseCors("CorsPolicy");
             app.UseAuthentication();
             app.UseAuthorization();
+            
             app.UseSwaggerDocumentation();
           
 
             app.UseEndpoints(endpoints =>
             {
                endpoints.MapControllers();
-               endpoints.MapFallbackToController("Index", "Fallback");
+               
+
             });
         }
     }
